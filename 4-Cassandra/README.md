@@ -1,5 +1,6 @@
 Cassandra   
-docker exec -it container_id bash
+docker run --name cassandra -p 9042:9042 -d cassandra:latest
+docker exec -it cassandra bash
 
 cqlsh
 
