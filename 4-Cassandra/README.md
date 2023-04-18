@@ -7,13 +7,13 @@ CREATE KEYSPACE cassandra_tutorial WITH replication = {'class': 'SimpleStrategy'
 
 USE cassandra_tutorial;
 
-CREATE TABLE log_data (
-    interval double,
-    date_time_ date,
-    ip text,
-    url text,
-    status int,
-    size int,
-    duration double,
-    PRIMARY KEY (ip)
-    );
+    CREATE TABLE log_data (
+        interval double,
+        date_time_ date,
+        ip text,
+        url text,
+        status int,
+        size int,
+        duration double,
+        PRIMARY KEY (ip)
+        );
