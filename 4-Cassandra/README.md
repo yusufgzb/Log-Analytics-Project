@@ -19,3 +19,5 @@ USE cassandra_tutorial;
         duration double,
         PRIMARY KEY (ip)
         );
+
+![image](https://user-images.githubusercontent.com/44902732/232673938-f2147d7b-55e7-4b9c-ae1a-24d219c7465b.png)
