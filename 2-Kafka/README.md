@@ -8,6 +8,7 @@ tar -xzvf kafka_2.12-3.3.1.tgz
 cd kafka_2.12-3.3.1
 
 nano config/server.properties
+
     advertised.listeners=PLAINTEXT://External_ip:9092
 
 
